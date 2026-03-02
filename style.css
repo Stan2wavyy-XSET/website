@@ -71,20 +71,55 @@ padding-left: 20px;
     color: var(--text-color);
     display: none;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
+
+ #projects-title{
+    color: rgb(138, 177, 67);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 20px;
+}
+
+h3{
+    color: rgb(12, 230, 12);
+    font-size: 1.5rem;
+}
+
+p{
+    color: lightgreen;
+}
+
+.project-image{
+    border-radius: 500px;
+    width: 20vw;
+    float:left;
+    margin-right: 10px;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-card{
+    border: 5px solid transparent;
+    border-color: green;
+    margin: 30px;
+    background-color: darkgray;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px 0 rgba(0, 255, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: green;
+    p{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
 }
