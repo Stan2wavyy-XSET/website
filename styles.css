@@ -140,21 +140,3 @@ p:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
-body::before {
-    content: "RECYCLE";
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-25deg);
-
-    font-size: 120px;
-    font-weight: 900;
-    letter-spacing: 10px;
-
-    color: lab(78.95% -75.45 62.53 / 0.15);
-    text-align: center;
-
-    white-space: nowrap;
-    pointer-events: none;
-    z-index: 0;
-}
