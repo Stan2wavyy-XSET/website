@@ -39,6 +39,7 @@ h1 {
 
 
 }
+
 .container {
     display: flex;
     gap: 20px;
@@ -52,6 +53,7 @@ h1 {
 .image {
     height: 250px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
 
 body {
@@ -61,14 +63,12 @@ body {
     line-height: 1.8;
     color: #1b4332;
 
-    background: linear-gradient(
-        135deg,
-        #d8f3dc 0%,
-        #b7e4c7 25%,
-        #95d5b2 50%,
-        #52b788 75%,
-        #2d6a4f 100%
-    );
+    background: linear-gradient(135deg,
+            #d8f3dc 0%,
+            #b7e4c7 25%,
+            #95d5b2 50%,
+            #52b788 75%,
+            #2d6a4f 100%);
 
     min-height: 100vh;
 }
@@ -112,7 +112,11 @@ p {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-h1, h2, h3, p {
+
+h1,
+h2,
+h3,
+p {
     transition: all 0.3s ease;
 }
 
@@ -125,9 +129,14 @@ h1:hover {
 
 h2:hover {
     color: #ffffff;
-    background-color: #2d6a4f;
+    background-color: linear-gradient(to right, blue, #2d6a4f);
     padding-left: 20px;
     border-radius: 8px;
+    transform: scale(1.05);
+    background: linear-gradient(to right, blue, #2d6a4f);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+
 }
 
 h3:hover {
