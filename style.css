@@ -32,8 +32,8 @@ header {
 }
 
 .logo img {
-    width: 45px;
-    margin-right: 10px;
+    width: 50px;
+    margin-right: 30px;
 }
 
 .logo h1 {
@@ -194,17 +194,11 @@ main{
     margin-left: 20px;
     margin-right: 20px;
 }
-.logo{
-    width: 200px;
-    height: 200px;
-transition: all 0.5ms ease-in-out;
-filter: brightness(10%);
-}
-.logo:hover{
-    size-adjust: 50cm;
-    filter: brightness(200%);
 
-}
+
+
+
+
 nav{
     display: flex;
     align-items: center;
@@ -307,5 +301,6 @@ p{
     }
     h3{
         color: white;
+ 
     }
 }
